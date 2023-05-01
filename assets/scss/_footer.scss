@@ -1,0 +1,259 @@
+.footer{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 830px;
+    @media (max-width: 1200px) {
+     height: 290px; 
+    }
+    @media (max-width: 768px) {
+      top: 920px;
+    }
+    @media (max-width: 576px) {
+    top: 1030px; 
+    height: 430px;
+    } 
+}
+
+.footer1{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 1220px;
+    @media (max-width: 1450px) {
+      top: 1280px;      
+    } 
+    @media (max-width: 1200px) {
+        height: 300px; 
+       }
+       @media (max-width: 992px) {
+      top: 1450px;
+    }
+       @media (max-width: 576px) {
+        height: 430px;
+        } 
+        @media (max-width: 768px) {
+      top: 1630px;
+        }
+        @media (max-width: 576px) {
+      top: 0;
+        }
+}
+
+.footer-name{
+    top: 65px;
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    left: 135px;
+    @media (max-width: 992px) {
+     left: 60px; 
+    }
+    @media (max-width: 576px) {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     left: 0;
+    }
+  
+}
+
+.footer-name-big{
+    position: absolute;
+    top: -18px;
+    font-size: 50px;    
+    font-weight: 350;
+    line-height: 87px;   
+    @extend %ff-text;
+    @media (max-width: 768px) {
+       font-size: 35px;
+      }
+}
+
+.footer-name-small{
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;    
+    font-weight: 200;
+    line-height: 87px;
+    left: 7px;
+    @extend %ff-text;
+    @media (max-width: 768px) {
+      left: 0;
+      font-size: 18px;
+    }
+    @media (max-width: 576px) {
+     width: 100%;
+     text-align: center;
+     font-size: 16px;
+     bottom: 5px;
+    }
+}
+
+.develop{
+    position: absolute;
+    height: 50px;
+    bottom: 25px;
+    left: 135px;
+    top: 210px;
+    @media (max-width: 992px) {
+     left: 60px; 
+    }
+    @media (max-width: 576px) {
+        width: 100%;
+        text-align: center;
+        left: 0;
+     top: 370px;
+    }
+}
+
+.develop>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    @extend %ff-text;
+    @media (max-width: 768px) {
+     font-size: 18px;  
+    }
+}
+
+.develop>a:hover{
+    font-size: 20.5px;
+    @media (max-width: 768px) {
+     font-size: 18.5px;  
+    }
+}
+
+
+
+.gip{
+    position: absolute;
+    width: 400px;
+    top: 65px;
+    right: 90px;
+    text-align: center;
+    @media (max-width: 1620px) {
+        right: 20px;
+      
+    }
+    @media (max-width: 1550px) {
+        display: none;      
+    }
+}
+
+.gip>p{
+    @extend %ff-text;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#f1{
+    position: absolute;
+    left: 11px;
+    
+}
+
+.btn-tel{
+    @media (max-width: 576px) {
+     margin-right: 10px;
+    }
+}
+
+.linf{
+    position: absolute;
+    left: 135px;
+    top: 160px;
+    @media (max-width: 992px) {
+      left: 60px;
+    }
+    @media (max-width: 576px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 0;
+    }
+
+}
+
+
+.lin1{
+    position: absolute;
+    width: 100px;
+    top: 65px;
+    left: 650px;
+    @media (max-width: 1200px) {
+      left: 550px;
+    }
+    @media (max-width: 992px) {
+     left: 430px; 
+    }
+    @media (max-width: 768px) {
+     left: 320px;  
+    }
+    @media (max-width: 576px) {
+    left: 120px;
+    top: 220px;
+    }
+}
+
+.lin1>a,
+.lin2>a{
+    @extend %ff-text;
+    font-size: 23px;
+    line-height: 46px;
+    color: black;
+    font-weight: 200;
+    @media (max-width: 768px) {
+     font-size: 18px;  
+    }
+    @media (max-width: 576px) {
+     font-size: 20px;
+    }
+}
+
+
+.lin1>a:hover,
+.lin2>a:hover{
+    font-size: 23.2px;  
+    @media (max-width: 768px) {
+     font-size: 18.2px;  
+    }  
+}
+
+
+.lin2{
+    position: absolute;
+    width: 200px;
+    top: 65px;
+    left: 930px;
+    @media (max-width: 1200px) {
+     left: 750px; 
+    }
+    @media (max-width: 992px) {
+     left: 580px; 
+    }
+    @media (max-width: 768px) {
+     width: 150px;
+     left: 420px; 
+       }
+       @media (max-width: 576px) {
+     top: 260px;
+    }  
+    @media (max-width: 576px) {
+     top: 220px;
+     left: 260px;
+    }
+    
+}
+
+.coop{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+    font-weight: 300;
+    @extend %ff-text;
+    
+  
+}

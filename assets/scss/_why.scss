@@ -1,0 +1,125 @@
+.why{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 60px;    
+}
+
+.why-photo{
+    background-image: url(../img/why.jpg);
+    position: absolute;
+    width: 452px;
+    height: 280px;
+    top: 80px;
+    left: 300px;    
+    background-size: cover;
+    background-repeat: no-repeat;  
+    @media (max-width: 1450px) {
+        left: 150px;      
+    }  
+    @media (max-width: 1300px) {
+        left: 90px;      
+    }
+    @media (max-width: 1200px) {
+        width: 384px;
+        height: 238px;
+        top: 110px;
+        }
+    @media (max-width: 992px) {
+      top: 130px;
+      left: 25%;
+    }
+    @media (max-width: 576px) {
+     left: 15%; 
+    }
+    
+}
+
+.why-photo2{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    left: 20%;
+    background-image: url(../img/nont.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    top: 930px;
+    @media (min-width: 576px) {
+      display: none;
+    }
+
+}
+
+.why-name{
+    position: absolute;
+    top: 67px;
+    left: 880px;
+    @media (max-width: 1450px) {
+        left: 730px;      
+    } 
+    @media (max-width: 1300px) {
+      left: 650px;
+    }
+    @media (max-width: 1200px) {
+       left: 560px;
+      }
+      @media (max-width: 992px) {
+      top: 30px;
+      width: 100%;
+      left: 0;
+      text-align: center;
+    }
+    @media (max-width: 576px) {
+     top: 20px; 
+    }
+
+    
+}
+
+.why-name>p{
+    font-size: 50px;
+    font-weight: 200;
+    @extend %ff-text;    
+    @media (max-width: 1300px) {
+        left: 90px;      
+        font-size: 40px;
+    }
+}
+
+.why-res{
+    position: absolute;
+    top: 150px;
+    left: 884px;
+    @media (max-width: 1450px) {
+        left: 733px;      
+    } 
+    @media (max-width: 1300px) {
+        left: 653px;      
+    }
+    @media (max-width: 1200px) {
+        left: 563px;
+        }
+        @media (max-width: 992px) {
+      left: 23%;
+      top: 400px;
+        }
+        @media (max-width: 576px) {
+      left: 40px;
+        }
+    
+}
+
+.why-res>li{
+    @extend %ff-text;
+    font-size: 25px;
+    font-weight: 200;
+    list-style-type: none;
+    margin-top: 5px;
+    @media (max-width: 1300px) {
+      font-size: 22px;
+    }
+}
+
+.why-res>li::before{
+    content: '\2713';
+}

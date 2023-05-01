@@ -1,0 +1,104 @@
+.head-school{
+    height: 630px;
+}
+
+.name-sk{
+    position: absolute;
+    top: 220px;
+    left: 135px;
+    z-index: 1;
+    @media (max-width: 1200px) {
+     left: 90px; 
+     top: 200px;
+    }
+    @media (max-width: 992px) {
+      left: 60px;
+    }
+    @media (max-width: 768px) {
+     top: 170px; 
+    }
+    @media (max-width: 576px) {
+     left: 40px; 
+    }
+}
+
+.name-sk1{
+    @extend %ff-text;
+    font-size: 70px;
+    font-weight: 200;
+    line-height: 97px;
+    @media (max-width: 1200px) {
+    font-size: 55px;  
+    }
+    @media (max-width: 768px) {
+     font-size: 50px;
+     line-height: 60px; 
+    }
+}
+
+.name-sk2{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 200;
+    line-height: 97px;
+    left: 305px;
+    @extend %ff-text;
+    @media (max-width: 1200px) {
+     font-size: 55px;
+     left: 270px; 
+    }
+    @media (max-width: 992px) {
+     left: 0px; 
+    }
+    @media (max-width: 768px) {
+     font-size: 50px;
+     line-height: 60px;
+
+    }
+}
+
+.sk-foto{
+    position: absolute;
+    width: 368px;
+    height: 450px;
+    left: 1050px;
+    top: 162px;
+    background-image: url(../img/school-head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 150px 150px 0px 0px;
+    z-index: 5;
+    @media (max-width: 1460px) {
+        left: 950px;
+      
+    }
+    @media (max-width: 1350px) {
+        width: 277px;
+        height: 383px;
+      
+    }
+    @media (max-width: 1250px) {
+        left:  900px;
+      
+    }
+    @media (max-width: 1200px) {
+     left:700px; 
+     width: 249px;
+     height: 345px;
+    }
+    @media (max-width: 992px) {
+     top: 280px; 
+     left: 500px;
+     width: 224px;
+     height: 310px;
+    }
+    @media (max-width: 768px) {
+     left: 350px;
+     width: 202px; 
+     height: 279px;
+    }
+    @media (max-width: 576px) {
+     top: 350px;
+     left: 220px; 
+    }
+}

@@ -1,0 +1,283 @@
+a{
+    text-decoration: none;
+}
+.certif{
+    width: 100%;
+    height: 660px;
+    top: 863px;
+    position: relative;
+    @media (max-width: 1200px) {       
+     height: 570px;
+    }
+    @media (max-width: 768px) { 
+     height: 750px;
+    }
+}
+
+.certif-name{
+    position: absolute;
+    width: 450px;
+    left: 830px;
+    top: 100px;
+    z-index: 1;
+    @media (max-width: 1450px) {
+     left: 650px;  
+    }
+    @media (max-width: 1200px) {       
+     left: 520px;
+    }
+    @media (max-width: 992px) {       
+      left: 400px; 
+    }
+    @media (max-width: 768px) { 
+     width: 100%;
+     text-align: center;
+     left: 0;
+     top: 360px;
+    }
+}
+
+.certif-name>span{
+    font-weight: 200;
+    font-size: 72px;
+    line-height: 87px;
+    @extend %ff-text;
+    @media (max-width: 1450px) {
+       font-size: 60px;
+       }
+       @media (max-width: 1200px) {       
+     line-height: 60px;
+    }
+    @media (max-width: 992px) {       
+       font-size: 45px;
+       line-height: 50px;
+       }
+       @media (max-width: 768px) { 
+     font-size: 50px;
+    }
+
+}
+
+.circle4{
+    position: absolute;
+    width: 335px;
+    height: 335px;
+    left: 1100px;
+    top: 240px;
+    background:  #D4DCB2;
+    filter: blur(125px);
+    @media (max-width: 768px) { 
+     left: 0;
+     top: 300px;
+    }
+}
+
+.sertif-desc{
+    position: absolute;
+    width: 500px;
+    height: 162px;
+    left: 830px;
+    top: 300px;
+    z-index: 1;
+    @media (max-width: 1450px) {
+     left: 650px;  
+    }
+    @media (max-width: 1200px) {       
+     left: 520px;
+     width: 440px;
+    }
+    @media (max-width: 992px) {       
+     left: 400px;
+     top: 220px;
+     width: 330px;  
+    }
+
+    @media (max-width: 768px) { 
+     width: 85%;
+     left: 60px;
+     top: 480px;
+    }
+}
+
+.sertif-desc>p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    @extend %ff-text;}
+
+
+.foto-sertif{
+    position: absolute;
+    left: 136px;
+    top: 120px;
+    z-index: 1;
+    @media (max-width: 1450px) {
+        left: 90px;
+    }
+    @media (max-width: 1200px) {       
+     top: 160px;
+    }
+    @media (max-width: 992px) {       
+     left: 40px;
+    }
+    @media (max-width: 768px) { 
+    left: 25%;
+    top: 70px; 
+    }
+    @media (max-width: 576px) { 
+     left: 20%;
+    }
+}
+
+
+.sertif-main{ 
+    position: absolute;
+    width: 500px;
+    height: 327px;
+    border: 1px solid black;
+    border-radius: 283px/201.5px;
+    background-image: url(../img/sertif3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 72deg;
+    @media (max-width: 1450px) {
+     width: 450px;
+     height: 295px;
+     border-radius: 255px/181px;   
+    }
+    @media (max-width: 1200px) {       
+        width: 382.5px;
+        height: 251px;
+        border-radius: 217px/154px;
+    }
+    @media (max-width: 992px) {       
+     width: 326px;
+     height: 213px;
+     border-radius: 184px/131px;
+    }
+    @media (max-width: 768px) { 
+        width: 294px;
+     height: 192px;
+     border-radius: 166px/118px;       
+    }
+}
+
+.sertif-elips{
+    position: absolute;
+    width: 500px;
+    height: 327px;
+    border: 1px solid black;
+    border-radius: 283px/201.5px;
+    rotate: 72deg;
+    left: -5px;
+    top: -14px;
+   
+    @media (max-width: 1450px) {
+        width: 450px;
+        height: 295px;
+        border-radius: 255px/181px;   
+       }
+       @media (max-width: 1200px) {       
+        width: 382.5px;
+        height: 251px;
+        border-radius: 217px/154px;
+    }
+    @media (max-width: 992px) {       
+        width: 326px;
+        height: 213px;
+        border-radius: 184px/131px;
+       }
+       @media (max-width: 768px) { 
+        width: 294px;
+     height: 192px;
+     border-radius: 166px/118px;       
+    }
+   
+}
+
+.sertif-elips1{    
+    position: absolute;
+    width: 500px;
+    height: 327px;
+    border: 1px solid black;
+    border-radius: 283px/201.5px;
+    rotate: 90deg;
+    left: 24px;
+   
+    @media (max-width: 1450px) {
+        width: 450px;
+        height: 295px;
+        border-radius: 255px/181px;   
+       }
+       @media (max-width: 1200px) {       
+        width: 382.5px;
+        height: 251px;
+        border-radius: 217px/154px;
+    }
+    @media (max-width: 992px) {       
+        width: 326px;
+        height: 213px;
+        border-radius: 184px/131px;
+       }
+       @media (max-width: 768px) { 
+        width: 294px;
+     height: 192px;
+     border-radius: 166px/118px;       
+    }
+   }
+
+
+.btn-buy{
+    position: absolute;
+    width: 170px;
+    height: 48px;
+    left: 830px;
+    top: 493px;
+    border-radius: 35px;
+    text-align: center;  
+    background-color:  #D4DCB2 ;
+    @media (max-width: 1450px) {
+       left: 650px;
+       }
+       @media (max-width: 1200px) {       
+     left: 520px;
+    }
+    @media (max-width: 992px) {       
+       left: 400px;
+    }
+    @media (max-width: 768px) { 
+     left: 40%;
+     top: 650px;
+    }
+    @media (max-width: 576px) { 
+     top: 680px;
+    }
+
+}
+
+.btn-buy:hover,
+.btn-buy:focus{
+    background-color: #b6c089 ;}
+
+
+
+.btn-buy>a{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    left: 0;
+    @extend %ff-text;}
+
+.btn-buy>a:hover,
+.btn-buy>a:focus{
+    font-size: 18.2px;
+}
+
+
+

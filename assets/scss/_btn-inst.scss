@@ -1,0 +1,98 @@
+
+.middle {
+    position: absolute;
+    
+    top: 58px;
+    transform: translateY(-50%);
+    right: 50px;
+    text-align: center;
+    
+    @media (max-width: 1200px - 0.2){
+        top: 55px;
+    }
+
+    @media (max-width:768px) {
+        
+        right: 15px;
+     }
+
+    }
+ 
+    .btn-inst {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+    color: rgb(80, 80, 80);
+    overflow: hidden;
+    position: relative;
+   
+    }
+
+    .btn-tel {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+        color: black;
+        overflow: hidden;
+        position: relative;
+        }
+
+    .btn-inst i {
+    line-height: 58px;
+    font-size: 28px;
+    transition: 0.2s linear;
+    }
+
+    .btn-tel i {
+    line-height: 38px;
+    font-size: 18px;
+    transition: 0.2s linear;
+    }
+
+    .btn-inst:hover i,
+    .btn-tel:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+    }
+
+    .btn-inst::before,
+    .btn-tel::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #98c49a;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+    }
+
+    .btn-inst:hover::before,
+    .btn-tel:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+    }
+
+    @keyframes aaa {
+    0% {
+    left: -110%;
+    top: 90%;
+    }
+
+    50% {
+    left: 10%;
+    top: -30%;
+    }
+
+    100% {
+    top: -10%;
+    left: -10%;
+    }
+    }

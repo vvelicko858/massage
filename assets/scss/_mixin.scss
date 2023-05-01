@@ -1,0 +1,15 @@
+%ff-text {    
+    font-family: 'system-ui';    
+    font-style: normal; 
+    user-select: none;
+}
+
+%circle  {
+    position: absolute;
+    width: 335px;
+    height: 335px;
+    background-color: #D4DCB2;
+    filter: blur(125px);  
+  
+}
+
