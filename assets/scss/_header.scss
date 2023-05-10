@@ -6,7 +6,9 @@
 
 body {
     background-color: #FFFAF3;
-    overflow-x: hidden;
+    @media (min-width: 300px) {
+      overflow-x: hidden;      
+    }
 
 }
 
@@ -19,6 +21,9 @@ body {
     }
     @media (max-width: 576px) {
      height: 900px;
+    }
+    @media (max-width: 450px) {
+      height: 650px;
     }
 
 }
@@ -59,6 +64,12 @@ body {
         width: 150px;
         top: 20px;
    }
+   @media (max-width: 450px) {
+  margin-left: 20px;
+   width: 98px;
+   height: 46px; 
+   top: 30px;
+  }
 
 }
 
@@ -146,7 +157,6 @@ body {
 
 .ps {
     position: absolute;
-    width: 450px;
     height: 27px;
     left: 135px;
     top: 166px;
@@ -179,6 +189,11 @@ body {
   @media (max-width: 576px) {
     left: 40px;
  }
+ @media (max-width: 450px) {
+ top: 100px; 
+ left: 20px;
+ font-size: 13px;
+}
 
  
 
@@ -186,7 +201,6 @@ body {
 
 .discript {
     position: absolute;
-    width: 922px;
     height: 97px;
     left: 135px;
     top: 202px;
@@ -223,6 +237,11 @@ body {
   left: 40px;
   font-size: 35px;
 }
+@media (max-width: 450px) {
+ font-size: 20px; 
+ line-height: 40px;
+ left: 20px;
+}
 
 
 }
@@ -230,7 +249,6 @@ body {
 .discript1 {
     position: absolute;
     height: 194px;
-    width: 650px; 
     left: 135px;
     top: 289px;
     font-size: 70px;
@@ -239,6 +257,7 @@ body {
     font-family: 'system-ui';
     font-weight: 300;
     font-style: italic;
+    width: 605px;
 
     @media (max-width: 1200px - 0.2){
      left: 90px;
@@ -249,6 +268,7 @@ body {
     @media (max-width: 991.8px) {
         left: 70px;
         font-size: 55px;
+        width: 500px;
     }
 
     @media (max-width:890px) {
@@ -273,6 +293,14 @@ body {
   left: 40px;
   font-size: 35px;
   width: 400px;
+}
+@media (max-width: 450px) {
+
+    font-size: 20px; 
+    line-height: 25px;
+    left: 20px;
+    width: 200px;
+    top: 205px;
 }
  
 
@@ -300,7 +328,7 @@ body {
      left: 125px;
      top: 540px;   
     }
-    @media (max-width:890px) {        
+    @media (max-width:992px) {        
       left: 60px;
   }
 
@@ -315,6 +343,13 @@ body {
   @media (max-width: 576px) {
     left: 40px;
  }
+ 
+@media (max-width: 450px) {
+  left: 20px;
+  top: 300px;
+  width: 120px;
+  height: 30px;
+}
 }
 
 .btn-school:hover,
@@ -340,6 +375,10 @@ body {
       font-size: 15px;
       top: 9px;
      }
+     @media (max-width: 450px) {
+  font-size: 12px;
+  top: 5px;
+    }
 
 }
 
@@ -350,6 +389,9 @@ body {
       font-size: 15.2px;
       
      }
+     @media (max-width: 450px) {
+  font-size: 12.2px;
+    }
 }
 
 
@@ -365,7 +407,7 @@ body {
      left: 344px;
      top: 540px;   
     }
-    @media (max-width:890px) {
+    @media (max-width:992px) {
         
       left: 270px;
      
@@ -382,6 +424,10 @@ body {
     @media (max-width: 576px) {
       left: 44px;
    }
+   @media (max-width: 450px) {
+  left: 25px;
+  top: 340px;
+  }
   
 }
 
@@ -399,6 +445,9 @@ body {
       top: 12px;
       
      }
+     @media (max-width: 450px) {
+  font-size: 12px;
+    }
 
 }
 
@@ -409,6 +458,7 @@ body {
       font-size: 15.2px;
       
      } 
+     font-size: 12.2px;
 }
 
 
@@ -465,6 +515,12 @@ body {
         top: 200px;
       } 
 
+      @media (max-width: 450px) {
+       left: 150px;
+       top: 250px;  
+      }
+
+
     
 
 
@@ -477,6 +533,7 @@ body {
     position: absolute;  
     border: 1px solid black;
     rotate: -45deg;
+    overflow: hidden;
 
     @media (min-width: 1650px) {
         width: 780px;
@@ -532,6 +589,12 @@ body {
         margin-top: 150px;   
         border-radius: 131px / 76px;     
       } 
+      @media (min-width: 270px) {
+        width: 104px;
+        height: 61px;
+        border-radius: 52px/30px;
+  
+      }
 
    
 }
@@ -547,6 +610,8 @@ body {
     position: absolute;   
     border: 1px solid black;
     rotate: 112deg;
+    overflow: hidden;
+
     @media (min-width: 1650px) {
       width: 780px;
       height:455px;  
@@ -601,6 +666,14 @@ body {
       margin-top: 150px;   
       border-radius: 131px / 76px;     
     } 
+    @media (min-width: 270px) {
+      width: 104px;
+      height: 61px;
+      border-radius: 52px/30px;
+      border: 0.1px solid black;
+
+    }
+
 }
 
 
@@ -664,12 +737,19 @@ body {
       margin-top: 150px;   
       border-radius: 131px / 76px;     
     } 
+    @media (min-width: 270px) {
+      width: 104px;
+      height: 61px;
+      border-radius: 52px/30px;
+      border: 0.1px solid black;
+
+    }
+
 }
 
 .group-foto{
     display: inline;
     position: absolute;  
-    width: 534px;
     height: 160px; 
     top: 730px;
     left: 135px;
@@ -700,6 +780,9 @@ body {
      @media (max-width: 576px) {
        left: 5%;
     }
+    @media (max-width: 450px) {
+  top: 420px;
+    }
 }
 
 .foto1,
@@ -725,6 +808,10 @@ body {
      width: 115px;
      height: 115px;
     }
+    @media (max-width: 450px) {
+    width: 70px;
+    height: 70px; 
+    }
 }
 
 
@@ -742,6 +829,9 @@ body {
    @media (max-width: 576px) {
      left: 75px 0 0 0;
   }
+  @media (max-width: 450px) {
+  border-radius: 40px 0 0 0;
+  }
 
   
    
@@ -754,6 +844,9 @@ body {
     background-image: url(../img/minf2.jpeg);   
     @media (max-width: 576px) {
       left: 150px;
+    }
+    @media (max-width: 450px) {
+  left: 100px;
     }
 
    
@@ -774,6 +867,10 @@ body {
   @media (max-width: 576px) {
     border-radius: 0 75px 0 0;
     left: 300px;
+  }
+  @media (max-width: 450px) {
+  left: 200px;
+  border-radius: 0 40px 0 0;
   }
 
 }
@@ -796,6 +893,9 @@ body {
      @media (max-width: 576px) {
      top: 750px;
     }
+    @media (max-width: 450px) {
+  top: 530px;
+    }
 }
 
 .advant1{
@@ -804,6 +904,9 @@ body {
     width: 310px;
     left: 4%;
     text-align: center;
+    @media (max-width: 450px) {
+  left: 5px;
+    }
 }
 
 .advant1-first{
@@ -821,6 +924,9 @@ body {
         }
         @media (max-width: 576px) {
           font-size: 27px;
+        }
+        @media (max-width: 450px) {
+  font-size: 20px;
         }
     
 }
@@ -841,6 +947,9 @@ body {
   @media (max-width: 500px) {
     font-size: 15px;
  }
+@media (max-width: 450px) {
+  font-size: 11px;
+}
     
 }
 
@@ -868,6 +977,9 @@ body {
     @media (max-width: 576px) {
       font-size: 27px;
     }
+    @media (max-width: 450px) {
+  font-size: 20px;
+    }
 
     
 }
@@ -885,6 +997,9 @@ body {
 @media (max-width: 500px) {
   font-size: 15px;
 }
+@media (max-width: 450px) {
+ font-size: 11px; 
+}
 }
 
 .advant3{
@@ -893,6 +1008,9 @@ body {
     width: 310px;
     left: 4%;
     text-align: center;
+    @media (max-width: 450px) {
+  left: 3%;
+    }
 }
 
 .advant3-first{
@@ -911,6 +1029,9 @@ body {
         @media (max-width: 576px) {
           font-size: 27px;
         }
+        @media (max-width: 450px) {
+  font-size: 20px;
+        }
 }
 
 .advant3-second{
@@ -926,6 +1047,9 @@ body {
 @media (max-width: 500px) {
   font-size: 15px;
 }
+@media (max-width: 450px) {
+ font-size: 11px; 
+}
 }
 
 
@@ -935,6 +1059,10 @@ body {
     @media (min-width: 870px) {
         display: none;
       }
+    @media (max-width: 869.8px) {
+      display: block;
+      
+    }
 }
 
 

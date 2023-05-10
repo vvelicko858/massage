@@ -10,6 +10,10 @@
     height: 335px;
     background-color: #D4DCB2;
     filter: blur(125px);  
+    @media (max-width: 450px) {
+  width: 200px;
+  height: 200px;
+    }
   
 }
 

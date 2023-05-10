@@ -23,6 +23,7 @@
    @media (max-width:768px) {
     top: -40px;
 }
+
 }
 
 .name1{
@@ -40,6 +41,9 @@
        @media (max-width:992px) {
            font-size: 50px;
    }
+   @media (max-width: 450px) {
+  font-size: 30px;
+}
 }
 
 
@@ -67,6 +71,9 @@
     top: 70px;
     left: 70px;
 }
+@media (max-width: 450px) {
+  left: 10px;
+}
 }
 
 .indicator{     
@@ -87,6 +94,9 @@
        font-size: 19px;
        font-weight: 400;
    }
+   @media (max-width: 450px) {
+ font-size: 15px; 
+}
 }
 
 .indicator.active{
@@ -126,6 +136,9 @@ cursor: pointer;
        @media (max-width:992px) {
         left: 210px;
    }
+   @media (max-width: 450px) {
+  left: 150px;
+}
 
 
 }
@@ -176,6 +189,9 @@ cursor: pointer;
     top: 80px;
     left: 240px;
 }
+@media (max-width: 450px) {
+ left: 180px; 
+}
 }
 .line.active{
     position: absolute;
@@ -210,6 +226,10 @@ cursor: pointer;
 @media (max-width:576px) {
  left: 30px;  
  width: 400px; 
+}
+@media (max-width: 450px) {
+  left: 10px;
+  width: 270px;
 }
   
 }
@@ -263,6 +283,10 @@ cursor: pointer;
        @media (max-width:992px) {
         top: 300px;
    }
+   @media (max-width: 850px) {
+       display: none;
+     
+   }
        
 
 }
@@ -281,6 +305,9 @@ cursor: pointer;
 }
    @media (max-width:576px) {
   font-size: 18px;  
+}
+@media (max-width: 450px) {
+  font-size: 12px;
 }
 }
 
@@ -337,6 +364,12 @@ cursor: pointer;
         top: 200px;
         left: 32%;
    }
+   @media (max-width: 450px) {
+  width: 160px;
+  height: 208px;
+  left: 20%;
+  top: 150px;
+}
    
 
 }
@@ -453,6 +486,12 @@ cursor: pointer;
    @media (max-width:576px) {
  left: 35%;   
 }
+@media (max-width: 450px) {
+  left: 27%;
+  top: 660px;
+  width: 120px;
+ height: 30px;
+}
 
 }
 .btn-reg:hover,
@@ -472,6 +511,10 @@ cursor: pointer;
     margin-top: 12px;
     left: 0;
     @extend %ff-text;
+    @media (max-width: 450px) {
+    font-size: 12px;
+    margin-top: 5px;  
+    }
 
     
 }
@@ -479,7 +522,9 @@ cursor: pointer;
 .btn-reg>a:hover,
 .btn-reg>a:focus{
     font-size: 18.2px;
-
+    @media (max-width: 450px) {
+        font-size: 12.2px;      
+    }
 }
 
 

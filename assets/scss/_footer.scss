@@ -13,6 +13,10 @@
     top: 1030px; 
     height: 430px;
     } 
+    @media (max-width: 450px) {      
+      top: 770px;
+    height: 300px;   
+    }
 }
 
 .footer1{
@@ -38,6 +42,10 @@
         @media (max-width: 576px) {
       top: 0;
         }
+        @media (max-width: 450px) {
+            height: 310px;
+          
+        }
 }
 
 .footer-name{
@@ -55,6 +63,10 @@
      width: 100%;
      left: 0;
     }
+    @media (max-width: 450px) {
+     top: 0;   
+    }
+    
   
 }
 
@@ -68,6 +80,10 @@
     @media (max-width: 768px) {
        font-size: 35px;
       }
+      @media (max-width: 450px) {
+        font-size: 25px;
+      }
+
 }
 
 .footer-name-small{
@@ -88,6 +104,10 @@
      font-size: 16px;
      bottom: 5px;
     }
+    @media (max-width: 450px) {
+        font-size: 12px;
+        bottom: 10px;
+    }
 }
 
 .develop{
@@ -105,6 +125,9 @@
         left: 0;
      top: 370px;
     }
+    @media (max-width: 450px) {
+        top: 240px;
+    }
 }
 
 .develop>a{
@@ -115,12 +138,19 @@
     @media (max-width: 768px) {
      font-size: 18px;  
     }
+    @media (max-width: 450px) {
+    font-size: 14px;    
+    }
+
 }
 
 .develop>a:hover{
     font-size: 20.5px;
     @media (max-width: 768px) {
      font-size: 18.5px;  
+    }
+    @media (max-width: 450px) {
+        font-size: 14.5px;
     }
 }
 
@@ -150,6 +180,9 @@
 #f1{
     position: absolute;
     left: 11px;
+    @media (max-width: 450px) {
+    left: 9px;  
+    }
     
 }
 
@@ -171,6 +204,9 @@
         display: flex;
         justify-content: center;
         left: 0;
+    }
+    @media (max-width: 450px) {
+       top: 80px; 
     }
 
 }
@@ -194,6 +230,11 @@
     left: 120px;
     top: 220px;
     }
+    @media (max-width: 450px) {
+     top: 130px;
+     left: 60px;  
+     width: 50px; 
+    }
 }
 
 .lin1>a,
@@ -209,6 +250,10 @@
     @media (max-width: 576px) {
      font-size: 20px;
     }
+    @media (max-width: 450px) {
+     font-size: 14px;   
+     line-height: 30px;
+    }
 }
 
 
@@ -218,6 +263,9 @@
     @media (max-width: 768px) {
      font-size: 18.2px;  
     }  
+    @media (max-width: 450px) {
+        font-size: 14.2px;
+    }
 }
 
 
@@ -243,6 +291,11 @@
      top: 220px;
      left: 260px;
     }
+    @media (max-width: 450px) {
+     top: 130px; 
+     left: 160px;
+     width: 120px;  
+    }
     
 }
 
@@ -255,5 +308,8 @@
     font-weight: 300;
     @extend %ff-text;
     
+    @media (max-width: 450px) {
+        font-size: 14px;
+    }
   
 }

@@ -32,6 +32,12 @@
     @media (max-width: 576px) {
      left: 15%; 
     }
+    @media (max-width: 450px) {
+        
+     left: 22%;
+     width: 192px;
+     height: 119px; 
+    }
     
 }
 
@@ -46,6 +52,13 @@
     top: 930px;
     @media (min-width: 576px) {
       display: none;
+    }
+    @media (max-width: 450px) {
+       width: 144px;
+       height: 196px; 
+       top: 700px;
+       left: 25%;
+      
     }
 
 }
@@ -72,6 +85,10 @@
     @media (max-width: 576px) {
      top: 20px; 
     }
+    @media (max-width: 450px) {
+        
+     top: 50px; 
+    }
 
     
 }
@@ -83,6 +100,11 @@
     @media (max-width: 1300px) {
         left: 90px;      
         font-size: 40px;
+    }
+    @media (max-width: 450px) {
+     font-size: 20px;
+        
+      
     }
 }
 
@@ -106,6 +128,10 @@
         @media (max-width: 576px) {
       left: 40px;
         }
+        @media (max-width: 450px) {
+        top:300px;
+      
+        }
     
 }
 
@@ -117,6 +143,10 @@
     margin-top: 5px;
     @media (max-width: 1300px) {
       font-size: 22px;
+    }
+    @media (max-width: 450px) {
+        
+     font-size: 15px; 
     }
 }
 

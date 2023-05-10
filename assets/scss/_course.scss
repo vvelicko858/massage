@@ -7,13 +7,16 @@
      position: relative;
      height: 1800px; 
     }
+    @media (max-width: 450px) {
+        height: 1290px;
+      
+    }
 }
 
 .course-prog{
     position: absolute;
     top: 35px;
     width: 100%;
-    left: 35px;
     display: flex;
     justify-content: center;
     @media (max-width: 576px) {
@@ -37,6 +40,11 @@
      width: 204px; 
      height: 400px;
     }
+    @media (max-width: 450px) {
+        width: 143px;
+        height: 220px;
+      
+    }
   
 }
 
@@ -59,6 +67,12 @@
      font-size: 17px;
      height: 50px; 
     }
+    @media (max-width: 450px) {
+        font-size: 11px;
+        line-height: 12px;
+        height: 35px;
+      
+    }
 }
 
 .prog-cost{    
@@ -73,6 +87,10 @@
     }
     @media (max-width: 576px) {
      font-size: 20px; 
+    }
+    @media (max-width: 450px) {
+     font-size: 13px;   
+      
     }
 }
 
@@ -93,6 +111,12 @@
     @media (max-width: 576px) {
      line-height: 20px; 
     }
+    @media (max-width: 450px) {
+     font-size: 10px;
+     line-height: 12px;       
+     height: 3px;  
+    }
+
 }
 
 
@@ -120,6 +144,10 @@ left: 10px;
     @media (max-width: 576px) {
      top: 40px; 
     }
+    @media (max-width: 450px) {
+     font-size: 11px;   
+      
+    }
 }
 
 .indicatorsqq{
@@ -139,6 +167,11 @@ left: 10px;
     cursor: pointer;
     z-index: 999;
     padding-right: 40px;
+    @media (max-width: 450px) {
+     font-size: 11px;
+     padding-right: 15px;   
+      
+    }
 }
 
 #ind2:hover,
@@ -146,6 +179,10 @@ left: 10px;
 #ind4:hover{
     font-size: 18.1px;
     padding-right: 38.5px;
+    @media (max-width: 450px) {
+        font-size: 11.1px;
+      
+    }
   
 }
 
@@ -173,7 +210,14 @@ left: 10px;
              top: 35px;
             }
             @media (max-width: 768px) {
-      top: 45px;
+              top: 45px;
+            }
+            @media (max-width: 450px) {
+                width: 30px;
+                height: 32px;  
+                font-size: 20px;  
+                top: 78px;   
+      
             }
         
 }
@@ -186,6 +230,10 @@ left: 10px;
     top: 550px;
     width: 100%; 
     height: 570px;   
+    @media (max-width: 450px) {
+        
+     top: 300px; 
+    }
 }
 
 .slideqq.active{
@@ -211,6 +259,10 @@ left: 10px;
     @media (max-width: 768px) {
      top: -35px; 
     }
+    @media (max-width: 450px) {
+     top: 70px;   
+      
+    }
 }
 
 
@@ -226,19 +278,32 @@ left: 10px;
     @media (max-width: 1200px) {
     font-size: 32px;
     }
+    @media (max-width: 450px) {
+        
+      font-size: 18px;
+    }
 }
 
 .circle7{
     @extend %circle;
     left: 800px;
     top: -105px;
+    @media (max-width: 1120px) {
+        display: none;
+      
+    }
 
 }
 
 .circle8{
     @extend %circle;
     bottom: -226px;
-    left: 236px;
+    left: 200px;
+    @media (max-width: 450px) {
+     left: 0;
+     bottom: 0;   
+     
+    }
 }
 
 .slideqq-teo{
@@ -263,6 +328,10 @@ left: 10px;
      left: 50px; 
      width: 70%;
     }
+    @media (max-width: 450px) {
+      width: 85%;  
+      left: 0px;
+    }
 }
 
 .slideqq-teo>p,
@@ -277,6 +346,10 @@ left: 10px;
      width: 100%;
      text-align: center; 
      font-size: 35px;
+    }
+    @media (max-width: 450px) {
+    font-size: 20px;    
+      
     }
 
 }
@@ -298,6 +371,10 @@ left: 10px;
     font-size: 18px;
 
     }
+    @media (max-width: 450px) {
+     font-size: 13px;   
+      left: 25px;
+    }
 
 
 }
@@ -315,6 +392,10 @@ left: 10px;
         @media (max-width: 992px) {
       font-size: 18px;
         }
+        @media (max-width: 450px) {
+        left: 15px;
+      font-size: 13px;
+        }
     
      
 }
@@ -325,24 +406,37 @@ left: 10px;
     position: relative;
     width: 370px;
     left: 1030px;
-    top: 80px;
+    top: -444px;
     @media (max-width: 1450px) {
       left: 865px;  
+      top: -500px;
+
     } 
     @media (max-width: 1300px) {
-        left: 750px;      
+        left: 750px;
+        top: -500px;
+
+     
     }
     @media (max-width: 1200px) {
     left: 650px;
     width: 270px;
+    top: -470px;
+
     }
     @media (max-width: 992px) {
+        top: 70px;
      left: 90px;
      width: 80%;
     }
     @media (max-width: 768px) {
      left: 50px;
      width: 70%; 
+    }
+    @media (max-width: 450px) {
+        top: 80px;
+        left: 0;
+      
     }
 }
 
@@ -368,6 +462,11 @@ left: 10px;
       left: 40%;
       top: 90px;
         }
+        @media (max-width: 450px) {
+            width: 120px;
+            height: 30px; 
+            left:  30% ;          
+        }
     
     
 }
@@ -390,10 +489,19 @@ left: 10px;
     line-height: 21px;
     letter-spacing: 1px;
     @extend %ff-text;
+    @media (max-width: 450px) {
+        margin-top: -3px;
+        font-size: 12px;
+      
+    }
 }
 
 .slideqq-btn>a:hover{
     font-size: 18.2px;
+    @media (max-width: 450px) {
+        font-size: 12.2px;
+      
+    }
 }
 
 .ps2{
@@ -407,12 +515,17 @@ left: 10px;
 bottom: -80px;
     }
     @media (max-width: 992px) {
-     bottom: -150px; 
+     bottom: -300px; 
      font-size: 18px;
      font-weight: 300;
     }
     @media (max-width: 576px) {
    top: 740px;
+    }
+    @media (max-width: 450px) {
+        font-size: 12px;
+        top: 600px;
+      
     }
     
 }
@@ -424,6 +537,13 @@ bottom: -80px;
     text-align: center;
     font-size: 30px;
     @extend %ff-text;
+    left: -40px;
+    @media (max-width: 450px) {
+     font-size: 17px;
+     left: -6px;
+     top: -50px;   
+      
+    }
 }
 .nm-i{
     position: absolute;
@@ -431,7 +551,12 @@ bottom: -80px;
     top: -100px;
     display: flex;
     justify-content: center;
-    left: 45px;
+    @media (max-width: 450px) {
+        left: 20px;
+     
+        top: 0;
+
+    }
 }
 
 
@@ -476,6 +601,10 @@ input[type=radio] {
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
+    @media (max-width: 450px) {
+        
+     left: -18px; 
+    }
   }
   
   
